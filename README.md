@@ -93,7 +93,7 @@ a.write( path: 'test.png' )
 **Input**
 | **Key** | **Type** | **Required** | **Example** | **Description** |
 |------:|:------|:------|:------|:------|
-| **id** | ```String``` | Yes | 1711 | Choose your ape. |
+| **:id** | ```String``` | Yes | 1711 | Choose your ape. |
 
 **Return**<br>
 True    
@@ -113,9 +113,9 @@ a.write( path: 'test.png' )
 **Input**
 | **Key** | **Type** | **Required** | **Example** | **Description** |
 |------:|:------|:------|:------|:------|
-| **fuzz** | ```String``` | No | "1%" | Choose threshold for erasing background, dont forget "%" |
-| **position** | ```Integer``` | No | 1500 | Set pixel index which represent the background color. Every Image has 631x631 Pixels, 1500 should be near on the left right in row 3. |
-| **size** | ```Integer``` | No | 2 | Draws a small frame arround the image, for better result on keying the background. |
+| **:fuzz** | ```String``` | No | "1%" | Choose threshold for erasing background, dont forget "%" |
+| **:position** | ```Integer``` | No | 1500 | Set pixel index which represent the background color. Every Image has 631x631 Pixels, 1500 should be near on the left right in row 3. |
+| **:size** | ```Integer``` | No | 2 | Draws a small frame arround the image, for better result on keying the background. |
 
 **Return**<br>
 True    
@@ -135,11 +135,11 @@ a.write( path: 'test.png' )
 **Input**
 | **Key** | **Type** | **Required** | **Example** | **Description** |
 |------:|:------|:------|:------|:------|
-| **upper_left_x** | ```Integer``` | No | 240 | Set rectangle coordinate. |
-| **upper_left_y** | ```Integer``` | No | 210 |  Set rectangle coordinate. |
-| **lower_right_x** | ```Integer``` | No | 460 |  Set rectangle coordinate. |
-| **lower_right_y** | ```Integer``` | No | 270 |  Set rectangle coordinate. |
-| **color** | ```Integer``` | No | 'black' | Set background color of rectangle |
+| **:upper_left_x** | ```Integer``` | No | 240 | Set rectangle coordinate. |
+| **:upper_left_y** | ```Integer``` | No | 210 |  Set rectangle coordinate. |
+| **:lower_right_x** | ```Integer``` | No | 460 |  Set rectangle coordinate. |
+| **:lower_right_y** | ```Integer``` | No | 270 |  Set rectangle coordinate. |
+| **:color** | ```Integer``` | No | 'black' | Set background color of rectangle |
 
 **Return**<br>
 True    
@@ -164,13 +164,13 @@ a.write( path: 'test.png' )
 **Input**
 | **Key** | **Type** | **Required** | **Example** | **Description** |
 |------:|:------|:------|:------|:------|
-| **blob** | ```String``` | Yes |  | Set rectangle coordinate. |
-| **gravity** | ```RMagick Constant``` | No | 210 | See RMagick documentation for details: [RMagick Gravity](https://rmagick.github.io/constants.html)|
-| **offset_x** | ```Integer``` | No | 0 |  Offset ape on the x axes. |
-| **offset_y** | ```Integer``` | No | 0 |  Offset ape on the y axes. |
-| **width** | ```Integer``` | No | 631 | Set default canvas width |
-| **height** | ```Integer``` | No | 631 | Set default canvas height |
-
+| **:blob** | ```String``` | Yes |  | Set rectangle coordinate. |
+| **:gravity** | ```RMagick Constant``` | No | 210 | See RMagick documentation for details: [RMagick Gravity](https://rmagick.github.io/constants.html)|
+| **:offset_x** | ```Integer``` | No | 0 |  Offset ape on the x axes. |
+| **:offset_y** | ```Integer``` | No | 0 |  Offset ape on the y axes. |
+| **:width** | ```Integer``` | No | 631 | Set default canvas width |
+| **:height** | ```Integer``` | No | 631 | Set default canvas height |
+ 
 **Return**<br>
 True    
 <br>
