@@ -1,4 +1,4 @@
-require '../lib/masked_ape_club'
+require './lib/masked_ape_club'
 
 require 'rmagick'
 require 'yaml'
