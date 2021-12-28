@@ -10,20 +10,7 @@ Let the apes out and free them from backgrounds. With the goal to bring them to 
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/masked-ape-club-for-ruby/readme/headlines/examples.svg" height="55px" name="examples" alt="Examples">
 </a>
 
-```bash
-    gem install masked_ape_club
-```
 
-``` ruby
-
-require '../lib/masked_ape_club'
-
-id = 1711
-a = MaskedApeClub::Load.new()
-a.load( id: id )
-a.mask_ape( id: id)
-a.write( path: 'your_ape.png' )
-```
 
 <br>
 <br>
@@ -32,6 +19,7 @@ a.write( path: 'your_ape.png' )
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/masked-ape-club-for-ruby/readme/headlines/table-of-contents.svg" height="55px" name="table-of-contents" alt="Table of Contents">
 </a>
 <br>
+
 1. [Quickstart](#quickstart)<br>
 2. [Parameters](#parameters)<br>
 3. [Options](#options)<br>
@@ -40,7 +28,7 @@ a.write( path: 'your_ape.png' )
 6. [Credits](#credits)<br>
 7. [License](#license)<br>
 8. [Code of Conduct](#code-of-conduct)<br>
-9. [Support my Work](#support-my-work)<br>
+9.  [Support my Work](#support-my-work)<br>
 
 <br>
 <br>
@@ -48,8 +36,18 @@ a.write( path: 'your_ape.png' )
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/masked-ape-club-for-ruby/readme/headlines/quickstart.svg" height="55px" name="quickstart" alt="Quickstart">
 </a>
 
-```ruby
+```bash
+gem install masked_ape_club
+```
 
+``` ruby
+require '../lib/masked_ape_club'
+
+id = 1711
+a = MaskedApeClub::Load.new()
+a.load( id: id )
+a.mask_ape( id: id)
+a.write( path: 'your_ape.png' )
 ```
 <br>
 <br>
