@@ -88,7 +88,7 @@ img_diff = ImageDiff.new
 test = img_diff.diff_images(item[:test][:path] , item[:compare][:path] )
 puts "Result: #{test}"
 
-if( test === 1.0 ) 
+if( test > 0.99 ) 
     exit( 0 )
 else
     exit( 1 )
