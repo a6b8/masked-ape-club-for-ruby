@@ -41,7 +41,7 @@ gem install masked_ape_club
 ```
 
 ``` ruby
-require '../lib/masked_ape_club'
+require 'masked_ape_club'
 
 id = 1711
 a = MaskedApeClub::Load.new()
@@ -80,35 +80,110 @@ On Rubygems:
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/masked-ape-club-for-ruby/readme/headlines/methods.svg" height="55px" name="methods" alt="Methods">
 </a>
 
-### .example()
+### .load( id: )
 ```ruby
-    require 'local_path_builder'
+require 'masked_ape_club'
 
-    hash = Template.example( 
-        headline, 
-        console_mode,  
-        options 
-    )
+a = MaskedApeClub::Load.new()
+a.load( id: 1711 )
+a.write( path: 'test.png' )
 ```
 
 
 **Input**
-| **Type** | **Required** | **Description** | **Example** | **Description** |
-|------:|:------|:------|:------|:------| 
-| **headline** | ```String``` | Yes | "Test" | Define path structure |
-| **console mode** | ```Symbol``` | Yes | ```:hash``` | Set test console output mode. Use ```:silent```, ```:hash```, ```:path``` or ```:both``` |
-| **salt** | ```String``` | No | ```123``` | Use test salt to create unique filenames. |
+| **Key** | **Type** | **Required** | **Example** | **Description** |
+|------:|:------|:------|:------|:------|
+| **id** | ```String``` | Yes | 1711 | Choose your ape. |
 
 **Return**<br>
-Hash    
+True    
 <br>
 <br>
 <br>
-<a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/masked-ape-club-for-ruby/readme/headlines/options.svg" height="55px" name="options" alt="Options">
-</a>
+
+### .mask( fuzz: '1%', position: 1500, radius: 25 )
+```ruby
+require 'masked_ape_club'
+
+a = MaskedApeClub::Load.new()
+a.load( id: 1711 )
+a.mask()
+a.write( path: 'test.png' )
+```
+
+
+**Input**
+| **Key** | **Type** | **Required** | **Example** | **Description** |
+|------:|:------|:------|:------|:------|
+| **fuzz** | ```String``` | No | "1%" | Choose threshold for erasing background, dont forget "%" |
+| **position** | ```Integer``` | No | 1500 | Set pixel index which represent the background color. Every Image has 631x631 Pixels, 1500 should be near on the left right in row 3. |
+| **size** | ```Integer``` | No | 2 | Draws a small frame arround the image, for better result on keying the background. |
+
+**Return**<br>
+True    
 <br>
 <br>
+<br>
+
+### .censored( upper_left_x: 240, upper_left_y: 210, lower_right_x: 460, lower_right_y: 270, color: 'black' )
+```ruby
+require 'masked_ape_club'
+
+a = MaskedApeClub::Load.new()
+a.load( id: 1711 )
+a.censored()
+a.write( path: 'test.png' )
+```
+
+
+**Input**
+| **Key** | **Type** | **Required** | **Example** | **Description** |
+|------:|:------|:------|:------|:------|
+| **upper_left_x** | ```Integer``` | No | 240 | Set rectangle coordinate. |
+| **upper_left_y** | ```Integer``` | No | 210 |  Set rectangle coordinate. |
+| **lower_right_x** | ```Integer``` | No | 460 |  Set rectangle coordinate. |
+| **lower_right_y** | ```Integer``` | No | 270 |  Set rectangle coordinate. |
+| **color** | ```Integer``` | No | 'black' | Set background color of rectangle |
+
+**Return**<br>
+True    
+<br>
+<br>
+<br>
+
+
+### .background( blob:, gravity: Magick::CenterGravity, offset_x: 0, offset_y: 0, width: 631, height: 631)
+
+```ruby
+require 'masked_ape_club'
+
+a = MaskedApeClub::Load.new()
+a.load( id: 1711 )
+a.mask()
+
+background = 'background.png'
+blob = open( background ).read()
+a.background( blob: blob )
+a.write( path: 'test.png' )
+```
+
+
+**Input**
+| **Key** | **Type** | **Required** | **Example** | **Description** |
+|------:|:------|:------|:------|:------|
+| **blob** | ```String``` | Yes |  | Set rectangle coordinate. |
+| **gravity** | ```RMagick Constant``` | No | 210 | See RMagick documentation for details: [RMagick Gravity](https://rmagick.github.io/constants.html)|
+| **offset_x** | ```Integer``` | No | 0 |  Offset ape on the x axes. |
+| **offset_y** | ```Integer``` | No | 0 |  Offset ape on the y axes. |
+| **width** | ```Integer``` | No | 631 | Set default canvas width |
+| **height** | ```Integer``` | No | 631 | Set default canvas height |
+
+**Return**<br>
+True    
+<br>
+<br>
+<br>
+
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/masked-ape-club-for-ruby/readme/headlines/contributing.svg" height="55px" name="contributing" alt="Contributing">
 </a>
@@ -120,7 +195,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/m
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/masked-ape-club-for-ruby/readme/headlines/limitations.svg" height="55px" name="limitations" alt="Limitations">
 </a>
-- Test
+- Only tested with some ape
 <br>
 <br>
 <br>

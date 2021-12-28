@@ -53,7 +53,7 @@ module MaskedApeClub
         end
 
 
-        def mask( fuzz: '1%', position: 1500, radius: 25 )
+        def mask( fuzz: '1%', position: 1500, size: 2 )
             image = @image
             image.format = 'PNG'
             image.fuzz = fuzz
@@ -68,14 +68,8 @@ module MaskedApeClub
             mask = Magick::Image
                 .new( image.columns, image.rows) { self.background_color = 'transparent'  }
             
-            Magick::Draw.new
-                .stroke('none')
-                .stroke_width( 0 )
-                .fill( 'white' )
-                .roundrectangle( 0, 0, image.columns, image.rows, radius, radius )
-                .draw( mask )
         
-            size = radius
+            size = 2
             cols = 631
             rows = 631
             
