@@ -1,11 +1,12 @@
 # frozen_string_literal: true
 
 require_relative 'masked_ape_club/version'
-require_relative './collection/index'
+require_relative './collection/ape'
 
 require 'uri'
 require 'net/http'
 require 'rmagick'
+require 'json'
 
 
 module MaskedApeClub
