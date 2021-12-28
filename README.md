@@ -21,8 +21,8 @@ Let the apes out and free them from backgrounds. With the goal to bring them to 
 <br>
 
 1. [Quickstart](#quickstart)<br>
-2. [Parameters](#parameters)<br>
-3. [Options](#options)<br>
+2. [Setup](#setup)<br>
+3. [Methods](#methods)<br>
 4. [Contributing](#contributing)<br>
 5. [Limitations](#limitations)<br>
 6. [Credits](#credits)<br>
@@ -98,8 +98,6 @@ a.write( path: 'test.png' )
 **Return**<br>
 True    
 <br>
-<br>
-<br>
 
 ### .mask( fuzz: '1%', position: 1500, radius: 25 )
 ```ruby
@@ -121,8 +119,6 @@ a.write( path: 'test.png' )
 
 **Return**<br>
 True    
-<br>
-<br>
 <br>
 
 ### .censored( upper_left_x: 240, upper_left_y: 210, lower_right_x: 460, lower_right_y: 270, color: 'black' )
@@ -148,9 +144,6 @@ a.write( path: 'test.png' )
 **Return**<br>
 True    
 <br>
-<br>
-<br>
-
 
 ### .background( blob:, gravity: Magick::CenterGravity, offset_x: 0, offset_y: 0, width: 631, height: 631)
 
@@ -204,7 +197,6 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/m
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/masked-ape-club-for-ruby/readme/headlines/credits.svg" height="55px" name="credits" alt="Credits">
 </a>
 
-- Test
 <br>
 <br>
 <br>
