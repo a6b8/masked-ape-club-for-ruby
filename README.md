@@ -197,6 +197,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/m
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/masked-ape-club-for-ruby/readme/headlines/credits.svg" height="55px" name="credits" alt="Credits">
 </a>
 
+- [RMagick](https://github.com/rmagick/rmagick)
 <br>
 <br>
 <br>
