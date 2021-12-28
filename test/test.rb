@@ -5,19 +5,19 @@ a = MaskedApeClub::Load.new()
 item = {
     id: 1711,
     fuzz: '1%',
-    path: './test/result/test.png',
+    path: 'result/test.png',
     background: {
-        path: './test/template/ice.png',
+        path: 'template/ice.png',
         size: 400
     }
 }
 
 a.load( id: item[:id] )
 a.mask_ape( id: item[:id], fuzz: item[:fuzz] )
-a.write( path: './test/preview/mask_ape.png' )
+a.write( path: 'preview/mask_ape.png' )
 
 a.censored()
-a.write( path: './test/preview/censored.png' )
+a.write( path: 'preview/censored.png' )
 
 blob = open( item[:background][:path] ).read()
 a.background( 
@@ -28,4 +28,4 @@ a.background(
     height: item[:background][:size] 
 )
 
-a.write( path: './test/preview/background.png' )
+a.write( path: 'preview/background.png' )
