@@ -57,14 +57,14 @@ item = {
     test: {
         id: 1711,
         fuzz: '5%',
-        path: 'test/generated.png',
+        path: './test/test/generated.png',
     },
     background: {
-        path: 'template/ice.png',
+        path: './test/template/ice.png',
         size: 400
     },
     compare: {
-        path: 'test/compare.png'
+        path: './test/test/compare.png'
     }
 }
 
