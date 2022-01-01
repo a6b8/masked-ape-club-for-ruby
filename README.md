@@ -1,5 +1,5 @@
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/masked-ape-club-for-ruby/readme/headlines/Headline.svg" height="55px" name="headline" alt="# Headline">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/masked-ape-club-for-ruby/readme/headlines/Headline.svg" height="55px" name="# Headline" alt="Headline">
 </a>
 
 Let the apes out and free them from backgrounds. With the goal to bring them to context.
