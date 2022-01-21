@@ -5,7 +5,6 @@
 Let the apes out and free them from backgrounds. With the goal to bring them to context.
 <br>
 <br>
-<br>
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/examples.svg" height="55px" name="examples" alt="Examples">
 </a>
@@ -209,7 +208,6 @@ a.write( path: 'test.png' )
 True    
 <br>
 <br>
-<br>
 
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/contributing.svg" height="55px" name="contributing" alt="Contributing">
@@ -218,12 +216,11 @@ True
 Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/masked-ape-club-for-ruby. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/a6b8/masked-ape-club-for-ruby/blob/master/CODE_OF_CONDUCT.md).
 <br>
 <br>
-<br>
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/limitations.svg" height="55px" name="limitations" alt="Limitations">
 </a>
+
 - Only tested with some ape
-<br>
 <br>
 <br>
 
@@ -234,14 +231,12 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/m
 - [RMagick](https://github.com/rmagick/rmagick)
 <br>
 <br>
-<br>
 
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/license.svg" height="55px" name="license" alt="License">
 </a>
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-<br>
 <br>
 <br>
 <a href="#table-of-contents">
@@ -251,9 +246,8 @@ The gem is available as open source under the terms of the [MIT License](https:/
 Everyone interacting in the masked-ape-club-for-ruby project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/a6b8/masked-ape-club-for-ruby/blob/master/CODE_OF_CONDUCT.md).
 <br>
 <br>
-<br>
 <a href="#table-of-contents">
-<img href="#table-of-contents" src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/support-my-work.svg" height="55px" name="support-my-work" alt="Support my Work">
+<img href="#table-of-contents" src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/star-us.svg" height="55px" name="star-us" alt="Star us">
 </a>
-    
-Donate by [https://www.paypal.com](https://www.paypal.com/donate?hosted_button_id=XKYLQ9FBGC4RG)
+
+If this code helps you... - Please ⭐️ star this Project, every ⭐️ star makes us very happy!
