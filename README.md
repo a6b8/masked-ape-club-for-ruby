@@ -44,10 +44,9 @@ blob = open( background ).read()
 a.background( blob: blob )
 a.write( path: 'test.png' )
 ```
-
-
 <br>
 <br>
+
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com//a6b8/a6b8/main/assets/headlines/default/table-of-contents.svg" height="55px" name="table-of-contents" alt="Table of Contents">
 </a>
@@ -62,9 +61,9 @@ a.write( path: 'test.png' )
 7. [License](#license)<br>
 8. [Code of Conduct](#code-of-conduct)<br>
 9.  [Support my Work](#support-my-work)<br>
+<br>
+<br>
 
-<br>
-<br>
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/quickstart.svg" height="55px" name="quickstart" alt="Quickstart">
 </a>
@@ -109,6 +108,7 @@ On Rubygems:
 
 <br>
 <br>
+
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/methods.svg" height="55px" name="methods" alt="Methods">
 </a>
@@ -216,6 +216,7 @@ True
 Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/masked-ape-club-for-ruby. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/a6b8/masked-ape-club-for-ruby/blob/master/CODE_OF_CONDUCT.md).
 <br>
 <br>
+
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/limitations.svg" height="55px" name="limitations" alt="Limitations">
 </a>
@@ -239,6 +240,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/m
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 <br>
 <br>
+
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/code-of-conduct.svg" height="55px" name="code-of-conduct" alt="Code of Conduct">
 </a>
@@ -246,6 +248,7 @@ The gem is available as open source under the terms of the [MIT License](https:/
 Everyone interacting in the masked-ape-club-for-ruby project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/a6b8/masked-ape-club-for-ruby/blob/master/CODE_OF_CONDUCT.md).
 <br>
 <br>
+
 <a href="#table-of-contents">
 <img href="#table-of-contents" src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/star-us.svg" height="55px" name="star-us" alt="Star us">
 </a>
