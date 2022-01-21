@@ -10,7 +10,43 @@ Let the apes out and free them from backgrounds. With the goal to bring them to 
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/examples.svg" height="55px" name="examples" alt="Examples">
 </a>
 
-<br>
+### Create transparent background
+
+```ruby
+require 'masked_ape_club'
+
+a = MaskedApeClub::Load.new()
+a.load( id: 1711 )
+a.mask()
+a.write( path: 'test.png' )
+```
+
+### Censored your ape
+
+```ruby
+require 'masked_ape_club'
+
+a = MaskedApeClub::Load.new()
+a.load( id: 1711 )
+a.censored()
+a.write( path: 'test.png' )
+```
+
+### Go on holiday with your ape!
+```ruby
+require 'masked_ape_club'
+
+a = MaskedApeClub::Load.new()
+a.load( id: 1711 )
+a.mask()
+
+background = 'background.png'
+blob = open( background ).read()
+a.background( blob: blob )
+a.write( path: 'test.png' )
+```
+
+
 <br>
 <br>
 <a href="#table-of-contents">
@@ -201,7 +237,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/m
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/masked-ape-club-for-ruby/readme/headlines/license.svg" height="55px" name="license" alt="License">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/license.svg" height="55px" name="license" alt="License">
 </a>
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
