@@ -14,19 +14,21 @@ Let the apes out and free them from backgrounds. With the goal to bring them to 
 ```ruby
 require 'masked_ape_club'
 
+id = #your ape id
 a = MaskedApeClub::Load.new()
-a.load( id: 1711 )
+a.load( id: id )
 a.mask()
 a.write( path: 'test.png' )
 ```
 
-### Censored your ape
+### Censor your ape
 
 ```ruby
 require 'masked_ape_club'
 
+id = #your ape id
 a = MaskedApeClub::Load.new()
-a.load( id: 1711 )
+a.load( id: id )
 a.censored()
 a.write( path: 'test.png' )
 ```
@@ -35,8 +37,9 @@ a.write( path: 'test.png' )
 ```ruby
 require 'masked_ape_club'
 
+id = #your ape id
 a = MaskedApeClub::Load.new()
-a.load( id: 1711 )
+a.load( id: id )
 a.mask()
 
 background = 'background.png'
@@ -75,7 +78,7 @@ gem install masked_ape_club
 ``` ruby
 require 'masked_ape_club'
 
-id = 1711
+id = #your ape id
 a = MaskedApeClub::Load.new()
 a.load( id: id )
 a.mask_ape( id: id)
@@ -117,8 +120,9 @@ On Rubygems:
 ```ruby
 require 'masked_ape_club'
 
+id = #your ape id
 a = MaskedApeClub::Load.new()
-a.load( id: 1711 )
+a.load( id: id )
 a.write( path: 'test.png' )
 ```
 
@@ -126,7 +130,7 @@ a.write( path: 'test.png' )
 **Input**
 | **Key** | **Type** | **Required** | **Example** | **Description** |
 |------:|:------|:------|:------|:------|
-| **:id** | ```String``` | Yes | 1711 | Choose your ape. |
+| **:id** | ```String``` | Yes | your ape number | Choose your ape. |
 
 **Return**<br>
 True    
@@ -136,8 +140,9 @@ True
 ```ruby
 require 'masked_ape_club'
 
+id = #your ape id
 a = MaskedApeClub::Load.new()
-a.load( id: 1711 )
+a.load( id: id )
 a.mask()
 a.write( path: 'test.png' )
 ```
@@ -158,8 +163,9 @@ True
 ```ruby
 require 'masked_ape_club'
 
+id = #your ape id
 a = MaskedApeClub::Load.new()
-a.load( id: 1711 )
+a.load( id: id )
 a.censored()
 a.write( path: 'test.png' )
 ```
@@ -183,8 +189,9 @@ True
 ```ruby
 require 'masked_ape_club'
 
+id = #your ape id
 a = MaskedApeClub::Load.new()
-a.load( id: 1711 )
+a.load( id: id )
 a.mask()
 
 background = 'background.png'
