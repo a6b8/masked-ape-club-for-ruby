@@ -1,12 +1,12 @@
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/custom/masked-ape-club-for-ruby.svg" height="55px" name="# Masked Ape Club for Ruby" alt="Masked Ape Club for Ruby">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/custom/masked-ape-club-for-ruby.svg" height="45px" name="# Masked Ape Club for Ruby" alt="Masked Ape Club for Ruby">
 </a>
 
 Let the apes out and free them from backgrounds. With the goal to bring them to context.
 <br>
 <br>
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/examples.svg" height="55px" name="examples" alt="Examples">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/examples.svg" height="45px" name="examples" alt="Examples">
 </a>
 
 ### Create transparent background
@@ -51,7 +51,7 @@ a.write( path: 'test.png' )
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com//a6b8/a6b8/main/assets/headlines/default/table-of-contents.svg" height="55px" name="table-of-contents" alt="Table of Contents">
+<img src="https://raw.githubusercontent.com//a6b8/a6b8/main/assets/headlines/default/table-of-contents.svg" height="45px" name="table-of-contents" alt="Table of Contents">
 </a>
 <br>
 
@@ -68,7 +68,7 @@ a.write( path: 'test.png' )
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/quickstart.svg" height="55px" name="quickstart" alt="Quickstart">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/quickstart.svg" height="45px" name="quickstart" alt="Quickstart">
 </a>
 
 ```bash
@@ -87,7 +87,7 @@ a.write( path: 'your_ape.png' )
 <br>
 <br>
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/setup.svg" height="55px" name="setup" alt="Setup">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/setup.svg" height="45px" name="setup" alt="Setup">
 </a>
 
 Add this line to your application's Gemfile:
@@ -113,7 +113,7 @@ On Rubygems:
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/methods.svg" height="55px" name="methods" alt="Methods">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/methods.svg" height="45px" name="methods" alt="Methods">
 </a>
 
 ### .load( id: )
@@ -217,7 +217,7 @@ True
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/contributing.svg" height="55px" name="contributing" alt="Contributing">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/contributing.svg" height="45px" name="contributing" alt="Contributing">
 </a>
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/masked-ape-club-for-ruby. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/a6b8/masked-ape-club-for-ruby/blob/master/CODE_OF_CONDUCT.md).
@@ -225,7 +225,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/m
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/limitations.svg" height="55px" name="limitations" alt="Limitations">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/limitations.svg" height="45px" name="limitations" alt="Limitations">
 </a>
 
 - Only tested with some ape
@@ -233,7 +233,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/m
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/credits.svg" height="55px" name="credits" alt="Credits">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/credits.svg" height="45px" name="credits" alt="Credits">
 </a>
 
 - [RMagick](https://github.com/rmagick/rmagick)
@@ -241,7 +241,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/m
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/license.svg" height="55px" name="license" alt="License">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/license.svg" height="45px" name="license" alt="License">
 </a>
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
@@ -249,7 +249,7 @@ The gem is available as open source under the terms of the [MIT License](https:/
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/code-of-conduct.svg" height="55px" name="code-of-conduct" alt="Code of Conduct">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/code-of-conduct.svg" height="45px" name="code-of-conduct" alt="Code of Conduct">
 </a>
     
 Everyone interacting in the masked-ape-club-for-ruby project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/a6b8/masked-ape-club-for-ruby/blob/master/CODE_OF_CONDUCT.md).
@@ -257,7 +257,7 @@ Everyone interacting in the masked-ape-club-for-ruby project's codebases, issue 
 <br>
 
 <a href="#table-of-contents">
-<img href="#table-of-contents" src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/star-us.svg" height="55px" name="star-us" alt="Star us">
+<img href="#table-of-contents" src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/star-us.svg" height="45px" name="star-us" alt="Star us">
 </a>
 
 Please ⭐️ star this Project, every ⭐️ star makes us very happy!
