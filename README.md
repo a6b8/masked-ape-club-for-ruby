@@ -250,4 +250,4 @@ Everyone interacting in the masked-ape-club-for-ruby project's codebases, issue 
 <img href="#table-of-contents" src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/star-us.svg" height="55px" name="star-us" alt="Star us">
 </a>
 
-If this code helps you... - Please ⭐️ star this Project, every ⭐️ star makes us very happy!
+Please ⭐️ star this Project, every ⭐️ star makes us very happy!
